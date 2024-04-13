@@ -23,6 +23,10 @@ class BookFactory extends Factory
     {
       
         return [
+
+
+            'id' => $this->faker->unique()->randomNumber(),
+            'isbn' => $this->faker->isbn13(),
             'title' => $this->faker->sentence(4),
             'author' => $this->faker->name(),
             'description' => $this->faker->paragraph(3),
