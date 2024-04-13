@@ -1,0 +1,55 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+th,
+td {
+    padding: 10px;
+}
+
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+table {
+    margin-bottom: 20px;
+}
+
+
+thead {
+    background-color: #cbd5e0;
+    color: #2d3748;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #edf2f7;
+}
+
+
+th,
+td {
+    border: 1px solid #cbd5e0;
+}
+
+/* Center align text in table cells */
+th,
+td {
+    text-align: center;
+}
+
+/* Adjust font size and weight for table headers */
+th {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Adjust font size for table data */
+td {
+    font-size: 1rem;
+}
